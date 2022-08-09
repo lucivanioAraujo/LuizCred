@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CATALOG>
+    <operadora>
+    <nome>EloBanese</nome>
+    <limite>0</limite>
+        <condicao>1
+            <taxa>7</taxa>
+        </condicao>
+        <condicao>4
+            <taxa>9</taxa>
+        </condicao>
+        <condicao>7
+            <taxa>12</taxa>
+        </condicao>
+        <condicao>10
+            <taxa>14</taxa>
+        </condicao>
+        <condicao>12
+            <taxa>16</taxa>
+        </condicao>
+    </operadora>
+
+    <operadora>
+        <nome>visa, Master, Elo, Hiper</nome>
+        <limite>4000</limite>
+        <condicao>1
+            <taxa>7</taxa>
+        </condicao>
+        <condicao>4
+            <taxa>8</taxa>
+        </condicao>
+        <condicao>7
+            <taxa>10</taxa>
+        </condicao>
+        <condicao>10
+            <taxa>13</taxa>
+        </condicao>
+        <condicao>12
+            <taxa>14</taxa>
+        </condicao>
+        <condicao>18
+            <taxa>20,50</taxa>
+        </condicao>
+    </operadora>
+
+    <operadora>
+        <nome>visa, Master, Elo, Hiper</nome>
+        <limite>0</limite>
+        <condicao>1
+            <taxa>6</taxa>
+        </condicao>
+        <condicao>4
+            <taxa>7</taxa>
+        </condicao>
+        <condicao>7
+            <taxa>9</taxa>
+        </condicao>
+        <condicao>10
+            <taxa>12,5</taxa>
+        </condicao>
+        <condicao>12
+            <taxa>13,5</taxa>
+        </condicao>
+        <condicao>18
+            <taxa>20</taxa>
+        </condicao>
+    </operadora>
+
+<!--
+        if taxa > 1 entre em loop
+            se condicao > 1 e <= 4
+
+    operadora [visa, Master, Elo, Hiper] [EloBanese]
+        condicao [1 a 18] [1 a 12]
+        taxa %[7 8 10 13 14 20,50] [7 9 12 14 16]
+        limite [< 4.000 e > 4.000]
+-->
+
+</CATALOG>
